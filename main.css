@@ -275,10 +275,17 @@ p{
       margin-left: 10px;
       text-align: center;
    }
+   
+  main {
+   overflow-x: hidden;
+  }
 }
 
 @media (max-width:768px) {
 
+main {
+   overflow-x: hidden;
+}
 .burger-menu {
    display: none;
 }
